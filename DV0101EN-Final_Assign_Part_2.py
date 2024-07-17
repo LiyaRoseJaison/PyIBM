@@ -51,7 +51,7 @@ app.layout = html.Div([
     ]),
     html.Div(dcc.Dropdown(
             id='select-year',
-            options=[{'label': i, 'value': i} for i in year_list= [i for i in range(1980, 2024, 1)]],
+            options=[{'label': i, 'value': i} for i in year_list],
             placeholder='select-year',
             value='select year',
         )),
